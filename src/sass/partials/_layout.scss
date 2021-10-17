@@ -1,0 +1,57 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.wrapper {
+    flex: 1 0 auto;
+}
+
+.fa-envelope,
+.fa-phone,
+.fa-map-marker-alt,
+.fa-vimeo-v,
+.fa-facebook-f {
+  margin-right: 10px;
+}
+
+
+ footer {
+    flex-shrink: 0;
+    background: $white;
+    color: $gray;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em;
+    margin-top: 40px;
+}
+
+footer p {
+  float: right;
+}
+
+
+footer a {
+    color: $gray;
+    text-decoration: none;
+  }
+
+  @media (max-width: 767px) {
+    footer {
+      flex-direction: column;
+      text-align: center;
+    }
+
+  }
+

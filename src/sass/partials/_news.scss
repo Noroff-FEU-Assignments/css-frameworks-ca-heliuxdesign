@@ -1,0 +1,27 @@
+.card {
+	margin-bottom: 2em;
+}
+
+.container {
+	max-width: 90%;
+	padding: 0 3em 0 3em;
+}
+
+.current .page-link {
+	background-color: $primary;
+	color: $white;
+}
+
+.btn-buttonNews { 
+  background: linear-gradient(to right, $primary 90%, $gray 10%);  
+    color: $white;
+    width: 100%;
+    border: none;
+    text-align: center;
+}
+
+
+
+
+
+

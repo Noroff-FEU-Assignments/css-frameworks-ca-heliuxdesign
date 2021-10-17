@@ -1,0 +1,47 @@
+.tab-content {
+    background: $white;
+    padding: 1rem;
+    min-height: 150px;
+    border-radius: 0 12px 12px 12px;
+}
+
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+    color: $gray;
+    background-color: $white;
+}
+
+.nav-tabs,
+.nav-link {
+    border: none !important;
+}
+
+.mb-3 {
+    margin-bottom: 0 !important;
+}
+
+.fa-facebook-f {
+    margin-left: 10px;
+}
+
+.homeIcons {
+    padding-top: 50px;
+    color: $dark;
+}
+
+@media (max-width: 767px) {
+    .homeIcons {
+      text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+

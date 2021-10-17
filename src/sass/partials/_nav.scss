@@ -1,0 +1,29 @@
+.btn-navbutton {
+    background-color: $primary;
+    color: $white;
+    border-radius: 0;
+}
+
+.active {
+	background-color: $white;
+}
+
+.navbar-brand {
+    color: $primary;
+    font-family: $headings-font-family;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+
+
+
+
+
+
+

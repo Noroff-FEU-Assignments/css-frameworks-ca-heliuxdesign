@@ -1,0 +1,30 @@
+.home-container {
+	max-width: 100%;
+}
+
+.carousel-indicators .active {
+		background-color: $primary;
+}
+
+.carousel-item {
+	background-color: $white !important;
+}
+
+.page-link {
+	border: 1px solid $primary;
+}
+
+.active .page-link {
+	color: $primary;
+}
+
+.carousel-control-prev {
+	display: none;
+}
+
+.carousel-control-next {
+	display: none;
+}
+
+
+

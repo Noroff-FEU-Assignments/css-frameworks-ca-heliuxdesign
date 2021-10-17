@@ -1,0 +1,47 @@
+.btn-formbutton {
+    background-color: $gray;
+    color: $white;
+    width: 100%;
+    border-radius: 2px;
+    text-align: center;
+}
+
+.contact-form {
+    background-color: $gray-dark;
+    padding-bottom: 30px;
+}
+
+.formGroup {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.lineHeight p{
+    margin: 0;
+}
+
+.contactInfo {
+    padding-bottom: 10px;
+}
+
+.contactInfo a {
+    color: $gray;
+    text-decoration: none;
+}
+
+.form-check-input {
+    background-color: $primary;
+}
+
+.contactContainer {
+    padding-left: 60px;
+    padding-top: 130px;
+}
+
+@media (max-width: 767px) {
+    .contactContainer {
+    padding-left: 10px;
+    padding-top: 20px;
+    }
+}
+

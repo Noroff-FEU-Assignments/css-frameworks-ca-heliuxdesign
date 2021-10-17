@@ -1,0 +1,52 @@
+// custom
+$primary: #e92569;
+$secondary: #f8f8f8;
+$gray-dark: #efefef;
+$gray: #767676;
+$white: #ffffff;
+$dark: #0a0a0a;
+$gray-100: #ebebeb;
+
+// bootstrap
+$theme-colors: (
+  "primary":    $primary,
+  "light":      $secondary,
+  "dark":       $dark
+);
+
+$colors: (
+  "white":      $white,
+  "gray":       $gray,
+  "gray-dark":  $gray-dark,
+);
+
+$body-bg: $gray-100;
+$navbar-light-color: $dark;
+$navbar-light-brand-color: $primary;
+$input-bg: $white;
+$input-placeholder-color: $gray;
+$body-color: $gray;
+
+
+$border-radius: 3px;
+$carousel-indicator-opacity:  1;
+$carousel-indicator-height: 30px;
+
+$font-family-base: "lato", sans-serif;
+$headings-font-family: "display fair";
+$body-font-family: "lato", sans-serif;
+
+
+
+
+@import "~bootstrap/scss/bootstrap";
+@import "./partials/tabs";
+@import "./partials/typography";
+@import "./partials/layout";
+@import "./partials/news";
+@import "./partials/form";
+@import "./partials/nav";
+@import "./partials/home";
+
+
+
